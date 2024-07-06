@@ -1,0 +1,10 @@
+name: rulesplugin
+version: '${project.version}'
+main: me.michh.rulesplugin.Rulesplugin
+api-version: '1.21'
+authors: [Michadasis]
+description: Rules plugin for lifestealsmp tis elladas (alborov 8a se vrw)
+commands:
+  rules:
+    description: kanones tou server
+    usage: /<command>
