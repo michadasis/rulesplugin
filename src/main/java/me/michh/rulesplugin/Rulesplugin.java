@@ -20,7 +20,7 @@ public final class Rulesplugin extends JavaPlugin {
         if (command.getName().equalsIgnoreCase("rules")){
             if (sender instanceof Player){
                 Player p = (Player) sender;
-                p.sendMessage(ChatColor.RED + "Kanones:" +
+                p.sendMessage(ChatColor.DARK_RED + "Kanones:\n" +
                         ChatColor.YELLOW + "1." + ChatColor.WHITE + "Mhn xrisimopoieite hacked clients\n" +
                         ChatColor.YELLOW + "2." + ChatColor.WHITE + "Mhn xrhsimopoieite xray\n" +
                         ChatColor.YELLOW + "3." + ChatColor.WHITE + "Mhn kanete underground bases\n" +
