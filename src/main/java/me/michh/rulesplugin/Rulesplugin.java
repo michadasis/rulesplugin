@@ -12,7 +12,7 @@ public final class Rulesplugin extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        System.out.println("Rules plugin enabled successfully.");
+        getLogger().info("Rules plugin enabled successfully.");
     }
 
     @Override
@@ -20,10 +20,10 @@ public final class Rulesplugin extends JavaPlugin {
         if (command.getName().equalsIgnoreCase("rules")){
             if (sender instanceof Player){
                 Player p = (Player) sender;
-                p.sendMessage(ChatColor.DARK_RED + "Kanones:\n" +
+                p.sendMessage(ChatColor.YELLOW + "Kanones:\n" +
                         ChatColor.YELLOW + "1." + ChatColor.WHITE + "Mhn xrisimopoieite hacked clients\n" +
                         ChatColor.YELLOW + "2." + ChatColor.WHITE + "Mhn xrhsimopoieite xray\n" +
-                        ChatColor.YELLOW + "3." + ChatColor.WHITE + "Mhn kanete undeground bases (Isxuei mono stis season 1)\n" +
+                        ChatColor.YELLOW + "3." + ChatColor.WHITE + "Mhn kanete spawn kill atoma (Anamesa se kills prepei na exoun perasei 5 lepta MINIMUM alliws h kardia sas afaireite)\n" +
                         ChatColor.YELLOW + "4." + ChatColor.WHITE + "Mhn kanete exploit to heart system (na pernete hearts apo alts/players p dn 8a peksoun ka8olou)\n" +
                         ChatColor.YELLOW + "5." + ChatColor.WHITE + "To fullbright autoclickers map mods epitreponte");
             }
